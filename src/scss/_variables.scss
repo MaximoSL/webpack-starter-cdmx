@@ -1,0 +1,59 @@
+// Colors
+$primary:       #00b140;
+$dark:          #333;
+
+$body-color:    #4a4a4a;
+
+$gray-100:      #c9c9c9;
+$gray-200:      #aaa;
+$gray-300:      #797979;
+$gray-400:      #6f6f6f;
+$gray-500:      #555;
+
+$menu-color:    #b2b2b2;
+$border-color:  rgba(black, 0.08);
+
+$text-colors: (
+  "gray-5":         $gray-500,
+  "gray-4":         $gray-400,
+  "gray-2":         $gray-200,
+  "gray-1":         $gray-100
+);
+
+// Options
+$enable-shadows:    true;
+
+// Spacing
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 2),
+  6: ($spacer * 2.5),
+  7: ($spacer * 3)
+);
+
+// Typography
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
+
+$font-family-sans-serif:      'Muli', Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+$font-size-xxxs:              0.5625rem; // 9px
+$font-size-xxs:               0.6875rem; // 11px
+$font-size-xs:                0.75rem;   // 12px
+$font-size-rg:                0.8125rem; // 13px
+$font-size-md:                0.9375rem; // 15px
+
+$h1-font-size:                1.875rem; // 30px
+$h2-font-size:                1.0625rem; // 17px
+
+$text-sizes: (
+  "xxxs":  $font-size-xxxs,
+  "xxs":   $font-size-xxs,
+  "xs":    $font-size-xs,
+  "rg":    $font-size-rg,
+  "md":    $font-size-md,
+);

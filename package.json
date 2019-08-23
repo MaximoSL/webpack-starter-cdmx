@@ -4,6 +4,9 @@
   "main": "dist/app.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
+    "watch": "webpack --mode development --watch",
+    "prod": "webpack --mode production",
+    "production": "webpack --mode production",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -17,9 +20,9 @@
   "homepage": "https://github.com/MaximoSL/web-starter-basic#readme",
   "devDependencies": {
     "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.5.5",
     "autoprefixer": "^9.5.0",
     "babel-loader": "^8.0.5",
-    "babel-preset-env": "^1.7.0",
     "bootstrap": "^4.3.1",
     "css-loader": "^2.1.1",
     "css-mqpacker": "^7.0.0",

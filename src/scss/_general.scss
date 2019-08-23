@@ -7,3 +7,30 @@
 ::selection {
   background-color: rgba($primary, 0.5);
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $menu-color;
+
+  &:hover,
+  &:active {
+    background: lighten($menu-color, 5%);
+  }
+}
+
+::-webkit-scrollbar-track {
+  background: #dedede;
+
+  &:hover,
+  &:active {
+    background: lighten(#dedede, 5%);
+  }
+}
